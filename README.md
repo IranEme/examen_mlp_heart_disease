@@ -64,10 +64,10 @@ Tabla resumen de rendimiento sobre el conjunto de prueba (20%):
 ## 7. Análisis e Interpretación de Resultados
 
 * ¿Qué tan bien generaliza el modelo? ¿Hay indicios de overfitting o underfitting?
-[Responde aquí. Ej. El modelo generaliza correctamente al tener un accuracy alto en los datos de prueba. La curva de pérdida desciende de forma estable, lo que descarta un overfitting severo.]
+[ Ej. El modelo generaliza correctamente al tener un accuracy alto en los datos de prueba. La curva de pérdida desciende de forma estable, lo que descarta un overfitting severo.]
 
 * ¿Cuál clase se predice mejor (0 o 1) y por qué crees que ocurre esto?
-[Responde aquí. Ej. La clase X se predice ligeramente mejor (mayor F1-Score), posiblemente debido a la distribución de las muestras o características particulares durante el entrenamiento.]
+[ Ej. La clase X se predice ligeramente mejor (mayor F1-Score), posiblemente debido a la distribución de las muestras o características particulares durante el entrenamiento.]
 
 * ¿Qué variables del EDA considera más relevantes para la predicción del modelo?
 De acuerdo con el análisis del mapa de correlación, las variables cp (tipo de dolor de pecho) y thalach (frecuencia cardíaca máxima) son las más relevantes para la predicción.

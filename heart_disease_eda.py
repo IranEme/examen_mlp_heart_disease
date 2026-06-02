@@ -35,8 +35,7 @@ df.info()
 print("\n--- 4. Valores nulos o faltantes ---")
 print(df.isnull().sum())
 
-# Nota para tu README sobre imputación (Paso 4):
-# Como notarás al correr esto, 'ca' y 'thal' tendrán nulos. 
+# al correr esto, 'ca' y 'thal' tendrán nulos. 
 # Aquí aplicamos una estrategia de imputación rápida llenando con la moda (el valor más frecuente),
 # ya que son variables categóricas representadas con números.
 df['ca'] = pd.to_numeric(df['ca'])

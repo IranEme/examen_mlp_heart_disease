@@ -1,8 +1,8 @@
 # Clasificación de Enfermedad Cardíaca con Redes Neuronales (MLP)
 Implementación de un pipeline de Inteligencia Artificial para la predicción de enfermedades cardíacas mediante un modelo de Perceptrón Multicapa.
 
-**Alumno:** Iran
-**Matrícula:** [Escribe tu matrícula aquí]
+**Alumno:** Juan Iran Lopez Mercado
+**Matrícula:** [21760719]
 
 ## 1. Descripción del Dataset y Problema
 El dataset Heart Disease proviene del UCI Machine Learning Repository y contiene información clínica de pacientes (edad, presión arterial, colesterol, etc.) para predecir la presencia o ausencia de enfermedad cardíaca. Es un problema de clasificación binaria (0 = Sano, 1 = Enfermo).
@@ -73,4 +73,4 @@ Tabla resumen de rendimiento sobre el conjunto de prueba (20%):
 De acuerdo con el análisis del mapa de correlación, las variables cp (tipo de dolor de pecho) y thalach (frecuencia cardíaca máxima) son las más relevantes para la predicción.
 
 * ¿Qué cambio en la arquitectura o parámetros del MLP crees que mejoraría el desempeño?
-[Responde aquí. Ej. Modificar hiperparámetros como aumentar el número de épocas, ajustar la tasa de aprendizaje o agregar regularización (alpha) podría mejorar ligeramente el rendimiento general.]
+[  Modificar hiperparámetros como aumentar el número de épocas, ajustar la tasa de aprendizaje o agregar regularización (alpha) podría mejorar ligeramente el rendimiento general.]

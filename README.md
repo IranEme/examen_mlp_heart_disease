@@ -60,6 +60,25 @@ Tabla resumen de rendimiento sobre el conjunto de prueba (20%):
 | F1-Score  | [Ej. 0.85]     |
 | AUC       | [Ej. 0.90]     |
 
+### 6.1 Gráficas de Evaluación del Modelo (Sección 4.4)
+
+* 1. Matriz de Confusión (Heatmap):
+Permite observar los verdaderos positivos y negativos frente a los errores del modelo. [Ej. Se observa que el modelo tiene una alta tasa de Verdaderos Positivos, minimizando los Falsos Negativos, lo cual es crucial en diagnósticos médicos].
+
+* 2. Curva ROC:
+Muestra la capacidad de diagnóstico del modelo. [Ej. La curva se acerca a la esquina superior izquierda, logrando un Área Bajo la Curva (AUC) de X.XX, lo que indica una excelente separabilidad entre clases].
+
+* 3. Curva de Pérdida (loss_curve_):
+Visualiza la evolución del error durante el entrenamiento. [Ej. La pérdida disminuye de forma logarítmica y se estabiliza antes de las 500 épocas gracias al early_stopping, lo que demuestra que el optimizador Adam convergió correctamente].
+
+* 4. Barplot de Métricas por Clase:
+Compara visualmente el desempeño (Precision, Recall y F1) para sanos y enfermos. [Ej. Las barras demuestran un rendimiento equilibrado, aunque el Recall para la clase 1 (enfermos) es ligeramente superior].
+
+![Matriz de Confusión](screenshots/11.png)
+![Curva ROC](screenshots/22.png)
+![Curva de pérdida(loss_curve_)](screenshots/33.png)
+![Barplot de métricas por clase](screenshots/44.png)
+
 
 ## 7. Análisis e Interpretación de Resultados
 
